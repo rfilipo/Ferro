@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>CMS blinkx importa_planilha</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CMS blinkx importa_planilha</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/cms_blinkx2/index.php?action=importaplanilha</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Passo 1 - Selecione o arquivo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>planilha</td>
+	<td>/media/SQ004224P01/projetos/elocompany/prototipos/0.2/planilhas/cinema.csv</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Passo 2 - Setup da importação</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Passo 3 - Confirma! Verifique o resultado</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Passo 4 - Sucesso! Planilha importada.</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

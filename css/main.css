@@ -1,0 +1,162 @@
+/* ecooe direitos em GPL Affero*/
+
+p {
+font-family: "Arial" , sans-serif;
+font-size: 14px ;		
+}
+
+#splash {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index:999;
+  background-color: white;
+  opacity: 1;
+}
+
+#logo3_img {
+  width: 512px;
+  height: 69px;
+}
+#conteudo {
+  position: absolute;
+  width: 480px;
+  top: 200px;
+  left: 200px;
+  z-index:1001;
+}
+
+#logo3_frame {
+  position: absolute;
+  width: 31px;
+  top: 0px;
+  left: 0px;
+}
+#mastro_img {
+  /* width: 16px; 
+  height: 1024px;*/
+  height: 100%;
+}
+#mastro_frame {
+  position: absolute;
+  height: 100%;
+  top: -5px;
+  left: 0px;
+}
+
+#header_image {
+  width: 1024px;
+  height: 138px;
+}
+#header_frame {
+  width: 973px;
+  z-index: 1;
+  left: 0px;
+  top: -10px;
+  position: absolute;
+  opacity: 0;
+}
+#logo_img {
+  width: 137px;
+  height: 483px;
+}
+#logo_frame {
+  position: absolute;
+  z-index: 2;
+  top: 38px;
+  left: 932px;
+  width: 148px;
+  height: 321px;
+  opacity: 0;
+}
+#footer_img {
+  width: 100%;
+}
+#footer_frame {
+  width: 100%;
+  left: 0px;
+  position: absolute;
+  z-index: 4000;
+  opacity: 0;
+}
+#menu1_img {
+  width: 60px;
+  height: 250px;
+}
+#menu1_frame {
+  width: 60px;
+  position: absolute;
+  z-index: 3000;
+  left: 17px;
+  top: 800px;
+  height: 254px;
+  opacity: 0;
+}
+#menu2_img {
+  width: 104px;
+  height: 521px;
+}
+#menu2_frame {
+  width: 60px;
+  position: absolute;
+  z-index: 3000;
+  left: 70px;
+  top: 800px;
+  height: 254px;
+  opacity: 0;
+}
+#menu3_img {
+  width: 62px;
+  height: 453px;
+}
+#menu3_frame {
+  width: 60px;
+  position: absolute;
+  z-index: 3000;
+  left: 174px;
+  top: 800px;
+  height: 254px;
+  opacity: 0;
+}
+#menu4_img {
+  width: 133px;
+  height: 324px;
+}
+#menu4_frame {
+  width: 60px;
+  position: absolute;
+  z-index: 3000;
+  left: 236px;
+  top: 800px;
+  height: 254px;
+  opacity: 0;
+}
+#menu5_img {
+  width: 70px;
+  height: 515px;
+}
+#menu5_frame {
+  width: 60px;
+  position: absolute;
+  z-index: 3000;
+  left: 369px;
+  top: 800px;
+  height: 254px;
+  opacity: 0;
+}
+#menu6_img {
+  width: 77px;
+  height: 488px;
+}
+#menu6_frame {
+  width: 60px;
+  position: absolute;
+  z-index: 3000;
+  left: 439px;
+  top: 800px;
+  height: 254px;
+  opacity: 0;
+}
+

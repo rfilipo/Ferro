@@ -1,0 +1,140 @@
+body {
+margin: 0;
+font-family: verdana, arial, helvetica, sans-serif;
+color: #000;
+background-color: #FFF; 
+/* background-image: url("../../images/bg_black.jpg"); */
+}
+
+#main-title {
+margin-bottom: 10px;
+margin-left: 0;
+margin-right: 0;
+padding-top: 5px;  /* Corrigir no original, que era 15 */
+padding-bottom: 8px;
+padding-left: 25px;
+padding-right: 0;
+background-color: #FFF;
+/*
+border-top: 1px black solid;
+border-bottom: 1px black solid;
+*/
+color: #000;
+font-weight: bold;
+font-size: 18px;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#main-text {
+margin-top: 0;
+margin-bottom: 50px;
+margin-left: 130px;
+margin-right: 50px;
+height: 180px;}
+
+#palco_back {
+	width:1024px;
+	height:600px;
+	border-top:1px solid #FFF;
+	margin:15px 0px 0 50px; 
+	overflow: auto;
+	}
+	
+#top-menu {
+position: absolute;
+top: 5px;
+left: 25px;
+text-align: left;
+}
+
+/* Styles for the navbar on the left side. */
+
+#left-menu {
+position: absolute;
+top: 73px;
+left: 5px;
+border-right: 1px #999 dashed;
+text-align: right;
+width:150px;
+min-height:600px;
+margin:30px 0 30px 0;
+border-right:1px solid #FFF;
+float:left; 
+}
+
+
+#dhtmlgoodies_menu{
+	width:150px;	/* Width of main menu */
+
+}
+#dhtmlgoodies_menu	li{	/* Main menu <li> */
+	list-style-image:none;
+	list-style-type:none;	/* No bullets */
+	margin:0px;	/* No margin - needed for Opera */
+}
+#dhtmlgoodies_menu ul{
+	margin:0px;	/* No <ul> air */
+	padding:0px;	/* No <ul> air */
+}
+#dhtmlgoodies_menu ul li ul{	/* Styling for those who doesn't have javascript enabled */
+	padding-left:1px;
+}
+#dhtmlgoodies_menu	li a{	/* Main menu links */
+	text-decoration:none;	/* No underline */
+	color:#000000;	/* Black text color */
+
+	height:20px;	/* 20 pixel height */
+	line-height:20px;	/* 20 pixel height */
+	vertical-align:middle;	/* Align text in the middle */
+	border:0px solid #FFF;	/* Black border */
+	background-color:#fff;	/* Light blue background color */
+	margin:1px;	/* A little bit of air */
+	padding:1px;	/* Air between border and text inside */
+
+	display:block;
+}
+#dhtmlgoodies_menu	li a:hover,#dhtmlgoodies_menu .activeMainMenuItem{
+	color:#c0c0c0;
+	background-color:#FFF;
+	font-weight: bold;
+}
+.dhtmlgoodies_subMenu{
+	visibility:hidden;
+	position:absolute;
+	overflow:hidden;
+	border:1px solid #FFF;
+	background-color:#FFF;
+	text-align:left;
+	margin-left: 2px;
+	list-style-image:none;
+}
+.dhtmlgoodies_subMenu ul{
+	margin:0px;
+	padding:0px;
+}
+.dhtmlgoodies_subMenu ul li{
+	list-style-type:none;
+	list-style-image:none;
+	margin:0px;
+	padding:1px;	/* 1px of air between submenu border and sub menu item - (the "white" space you see on mouse over )*/
+}
+.dhtmlgoodies_subMenu ul li a{	/* Sub menu items */
+	white-space:nowrap;	/* No line break */
+	text-decoration:none;	/* No underline */
+	color:#000000;	/* Black text color */
+
+	height:16px;	/* 16 pixels height */
+	line-height:16px;	/* 16 pixels height */
+	padding:1px;	/* 1px of "air" inside */
+
+	display:block;	/* Display as block - you shouldn't change this */
+}
+.dhtmlgoodies_subMenu ul li a:hover{	/* Sub menu items - mouse over effects */
+	color:#c0c0c0;	/* White text */
+	background-color:#FFF;	/* Blue background */
+	font-weight: bold;
+}
+
+
+
+

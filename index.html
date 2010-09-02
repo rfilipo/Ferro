@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+        <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+        <title>FERRO</title>
+        <link rel="stylesheet" href="js/dojo-release-1.2.3/resources/dojo.css">
+        <link rel="stylesheet" href="js/dojo-release-1.2.3/dijit/themes/tundra/tundra.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <script language="javascript" type="text/javascript" src="js/dojo-release-1.3.1/dojo/dojo.js"></script>
+        <script language="javascript" type="text/javascript" src="js/ferro.js"></script>
+    </head>
+<body>
+    <div id="quadro">
+        <div id="canvas">
+            <!-- MENU -->
+            <div id="menu1_frame"
+        onclick='quem(); loadText(menu1,"conteudo");' 
+                >
+        <img id="menu1_img" 
+        alt="quem" 
+        src="img/quem.jpg"></div>
+     <div id="menu2_frame">
+        <img id="menu2_img" 
+        onclick='conceito(); loadText(menu2,"conteudo");' 
+        alt="conceito" 
+        src="img/conceito.jpg"></div>
+      <div id="menu3_frame">
+        <img id="menu3_img" 
+        onclick='blog(); loadText(menu3,"conteudo");' 
+        alt="blog" 
+        src="img/blog.jpg"></div>
+      <div id="menu4_frame">
+        <img id="menu4_img" 
+        onclick='produtos(); loadText(menu4,"conteudo");' 
+        alt="produtos" 
+        src="img/produtos.jpg"></div>
+      <div id="menu5_frame">
+        <img id="menu5_img" 
+        onclick='dicas(); loadText(menu5,"conteudo");' 
+        alt="dicas" 
+        src="img/dicas.jpg"></div>
+      <div id="menu6_frame">
+        <img id="menu6_img" 
+        onclick='email(); loadText(menu6,"conteudo");' 
+        alt="email" 
+        src="img/email.jpg"></div>
+ 
+    <!-- END MENU -->
+
+        
+            <div id="conteudo">
+
+                <p>Ferro CMS 0.1 (php based)    
+                
+            <center><button onclick="doAnimation(0);">Entrar</button></center>
+</div>
+
+<div id="splash" >
+
+    <div id="logo3_frame"><img id="logo3_img" alt="ecooe" src="img/logo3.jpg"></div>
+    <div id="mastro_frame"><img id="mastro_img" alt="ecooe" src="img/mastro.jpg"></div>
+
+</div>
+
+
+    <div id="header_frame">
+        <img id="header_image" alt="ecooe" 
+        src="img/header.jpg"></div>
+    <div id="logo_frame">
+        <img id="logo_img" alt="ecooe" src="img/logo2.jpg"></div>
+    <div id="footer_frame">
+        <img id="footer_img" alt="ecooe" src="img/footer.jpg"></div>
+</div></div>
+</body>
+<script language="javascript" type="text/javascript" src="js/ferro_tela.js"></script>
+</html>

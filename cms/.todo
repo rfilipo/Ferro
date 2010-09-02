@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<todo version="0.1.20">
+    <note priority="veryhigh" time="1269236956" done="1270394522">
+        Telas para cada link do menu filmes
+        <comment>
+            lista deve ser o pai, com os metodos setEnv e setWhere, assim como o template default, lista.tpl.php. Escrever script que cria views, ex ListaFilmes.php - feito
+        </comment>
+        <note priority="veryhigh" time="1269805221" done="1270394347">
+            implementar template edita.tpl.php
+            <comment>
+                Faltam testes e conferir com phpcs
+            </comment>
+        </note>
+        <note priority="veryhigh" time="1269888375" done="0">
+            Usar apenas o jQuery como biblioteca js
+        </note>
+        <note priority="high" time="1269233173" done="1270394392">
+            implementar EditaFilme
+            <comment>
+                Faltam testes e conferir com phpcs
+            </comment>
+        </note>
+        <note priority="high" time="1269717865" done="1269721467">
+            script para criacao de view Lista
+        </note>
+    </note>
+    <note priority="veryhigh" time="1269366637" done="1269371062">
+        Clonar para novo banco de dados
+        <comment>
+            Varios problemas ocorreram com o import via SQL. Creio que tem a ver com o tamanho do buffer do phpmyadmin. Feito!
+        </comment>
+    </note>
+    <note priority="veryhigh" time="1270075252" done="1270394558">
+        templates para popups jQery UI
+        <comment>
+            feito
+        </comment>
+    </note>
+    <note priority="veryhigh" time="1270697572" done="1270816364">
+        bug insere filme em branco no ImportaPlanilha
+        <comment>
+            Era um erro de offset dos campos
+        </comment>
+    </note>
+    <note priority="high" time="1269211994" done="1269216753">
+        Implementar MenuPrincipal
+        <comment>
+            feito
+        </comment>
+    </note>
+    <note priority="high" time="1269212770" done="1269216756">
+        Implementar FilmesASincronizar
+    </note>
+    <note priority="high" time="1269212897" done="1269216756">
+        implementa MenuPrincipal::setWhere()
+        <comment>
+            feito
+        </comment>
+    </note>
+    <note priority="high" time="1269216850" done="1269371142">
+        implementar ListaFilmes
+        <comment>
+            Falta passar o phpcs
+        </comment>
+    </note>
+    <note priority="high" time="1269216988" done="1269232789">
+        fotos das telas login, filmes por canal, sincronizados, a sincronizar, importa planilha 1 a 4
+    </note>
+    <note priority="high" time="1269236364" done="1269802225">
+        implementar paginacao em lista_filmes_tpl.php
+        <comment>
+            Falta testar.
+        </comment>
+    </note>
+    <note priority="medium" time="1269216802" done="1269232749">
+        remover templates inuteis
+    </note>
+    <note priority="medium" time="1269233134" done="1270394581">
+        implementar control action=ws para requisicoes ajax
+        <comment>
+            Faltam detalhes
+        </comment>
+    </note>
+    <note priority="medium" time="1269239251" done="1269283879">
+        Enviar email para Felipe com status e fotos
+        <comment>
+            Enviado e-mail. Aguardando telefonema ou e-mail
+        </comment>
+    </note>
+    <note priority="veryhigh" time="1269805184">
+        implementar modelo Filme e suas composicoes
+    </note>
+    <note priority="veryhigh" time="1270075230">
+        implementar classes fkey, auxiliar e especial
+    </note>
+    <note priority="veryhigh" time="1270847244" done="1271090811">
+        Verificar duplicacao de titulos
+        <comment>
+            corrigido
+        </comment>
+    </note>
+    <note priority="medium" time="1269366724">
+        Escrever script para auto-deploy por ftp
+    </note>
+    <note priority="medium" time="1270394252">
+        Juntar funcoes repetidas em blinkx_busca e sincronizar_filmes
+    </note>
+    <note priority="verylow" time="1269236481">
+        implementar order by coluna
+    </note>
+    <note priority="verylow" time="1269292293">
+        Corrigir estilo e erros em Filme.php
+    </note>
+</todo>

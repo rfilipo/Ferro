@@ -1,0 +1,45 @@
+CMS BLINKX
+
+INSTALACAO
+
+Dentro o diretorio de desenvolvimento digite o comando
+
+./scripts/deploy.sh
+
+Copie o diretorio dist para o diretorio /cms_blinkx2 na web
+
+ncftpput -R ftpmulti.elocompany.com cms_blinkx2 dist
+
+
+DADOS PARA ACESSO
+
+-BD:
+Endereço: http://mysql03.elocompany.com/
+log: eloaudiovisual1
+pw: eloav05
+
+-FTP:
+endereço: ftp://ftpmulti.elocompany.com
+log: mitologica
+pw: eloav
+
+Blinkx Demo
+http://elo.blinkxdemo.com
+Username: elo
+Password: n3wbu1ld
+
+
+blinkx Red Label Unpaid API
+
+Your API access URI is:
+http://usp1.blinkx.com/partnerapi/user/?uid=6fgaak78f9&text=george+bush
+
+Online help for the API can be found here:
+http://usp1.blinkx.com/partnerapi/help/
+
+CMS da blinkx:
+http://cms.blinkxdemo.com
+U: ELO_CM2_USER
+P: mi$o9_P9kj
+
+ 
