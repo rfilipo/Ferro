@@ -1,7 +1,8 @@
 {
     "name": "rfilipo/ferro",
     "description": "Ferro é um cms em php",
-    "type": "wordpress-plugin",
+    "type": "project",
+    "homepage": "https://github.com/rfilipo/Ferro",
     "require": {
         "phpunit/phpunit": "^7.5",
         "phpunit/php-code-coverage": "^6.1",
