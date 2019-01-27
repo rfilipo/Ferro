@@ -3,6 +3,8 @@
     "description": "Ferro é um cms em php",
     "type": "project",
     "homepage": "https://github.com/rfilipo/Ferro",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "phpunit/phpunit": "^7.5",
         "phpunit/php-code-coverage": "^6.1",
