@@ -1,9 +1,9 @@
 # Ferro 1.1
-Ferro é um CMS MVC para php.
+Ferro é um Framework MVC em PHP.
 
 ## Funcionalidades
 
 - mySQL/MariaDB
 - Controles customizaveis
 - Views com templates
-- Dojo JS
+- Integrado com Dojo JS
